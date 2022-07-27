@@ -1,0 +1,13 @@
+import React from 'react'
+import styles from './styles.module.css'
+
+function B() {
+  console.log("B", styles);
+  return (
+    <div className={styles.title}>
+      B
+    </div>
+  )
+}
+
+export default B
